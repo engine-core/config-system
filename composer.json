@@ -1,0 +1,29 @@
+{
+  "name": "engine-core/config-system",
+  "description": "为系统提供正常运行所需的核心配置",
+  "authors": [
+    {
+      "name": "E-Kevin",
+      "email": "e-kevin@qq.com"
+    }
+  ],
+  "type": "ec-extensions",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/engine-core/config-system",
+  "require": {
+    "e-kevin/engine-core": "~1.0.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "EngineCore\\config\\system\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    },
+    "extension-config": {
+      "app": "common"
+    }
+  }
+}
