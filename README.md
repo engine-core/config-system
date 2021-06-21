@@ -1,2 +1,2 @@
 # config-system
-Provide the core configuration for the normal operation of the system
+为EngineCore提供正常运行所需的核心配置
